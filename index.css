@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: black;
+  padding: 2em 0 2em 0;
+}
+
+.nav-item {
+  background-color: black;
+  color: white;
+  border: none;
+}
