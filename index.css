@@ -8,6 +8,11 @@
   src: url('assets/negative_system.otf');
 }
 
+@font-face {
+  font-family: 'Quentin';
+  src: url('assets/Quentin.otf');
+}
+
 body {
   margin: 0;
   position: relative;
@@ -59,11 +64,11 @@ button:hover {
 }
 
 #photo-overlay {
-  font-family: Arial;
+  font-family: 'Old Typewriter';
   background-color: antiquewhite;
   display: inline-block;
   color: grey;
-  padding: 2em;
+  padding: 1.5em;
   border-radius: 0.2em;
   position: absolute;
   z-index: 100;
@@ -71,5 +76,6 @@ button:hover {
   top: 11em;
   font-size: 1.2em;
   box-shadow: 0.2em 0.1em 2em rgb(177, 167, 153) inset;
-  
+  width: 25em;
+
 }
