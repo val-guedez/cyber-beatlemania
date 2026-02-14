@@ -10,6 +10,7 @@
 
 body {
   margin: 0;
+  position: relative;
 }
 
 nav {
@@ -25,11 +26,17 @@ nav {
   color: white;
   border-color: black;
   border-style: solid;
-  font-size: 1em;
+  font-size: 1.1em;
+  font-family: 'Old Typewriter';
 }
 
 button:hover {
   cursor: pointer;
+}
+
+.nav-item:hover {
+  font-weight: bolder;
+  background-color: rgb(27, 27, 27);
 }
 
 #site-logo {
