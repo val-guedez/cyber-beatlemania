@@ -25,6 +25,7 @@ nav {
   color: white;
   border-color: black;
   border-style: solid;
+  font-size: 1em;
 }
 
 button:hover {
@@ -43,4 +44,8 @@ button:hover {
 
 #beatlemania {
   font-family: 'Old Typewriter';
+}
+
+#initial-beatles {
+  width: 100%;
 }
