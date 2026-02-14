@@ -11,6 +11,7 @@
 body {
   margin: 0;
   position: relative;
+  background-color: black;
 }
 
 nav {
@@ -55,4 +56,20 @@ button:hover {
 
 #initial-beatles {
   width: 100%;
+}
+
+#photo-overlay {
+  font-family: Arial;
+  background-color: antiquewhite;
+  display: inline-block;
+  color: grey;
+  padding: 2em;
+  border-radius: 0.2em;
+  position: absolute;
+  z-index: 100;
+  left: 0;
+  top: 11em;
+  font-size: 1.2em;
+  box-shadow: 0.2em 0.1em 2em rgb(177, 167, 153) inset;
+  
 }
