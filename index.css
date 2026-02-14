@@ -1,3 +1,13 @@
+@font-face {
+  font-family: 'Old Typewriter';
+  src: url('assets/Old_Typewriter.ttf');
+}
+
+@font-face {
+  font-family: 'Negative System';
+  src: url('assets/negative_system.otf');
+}
+
 body {
   margin: 0;
 }
@@ -13,5 +23,24 @@ nav {
 .nav-item {
   background-color: black;
   color: white;
-  border: none;
+  border-color: black;
+  border-style: solid;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+#site-logo {
+  font-size: 2em;
+  padding: 0.1em 0.3em 0.1em 0.3em;
+}
+
+#cyber {
+  font-family: 'Negative System';
+  color: black;
+}
+
+#beatlemania {
+  font-family: 'Old Typewriter';
 }
