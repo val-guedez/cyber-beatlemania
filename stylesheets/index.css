@@ -1,16 +1,16 @@
 @font-face {
   font-family: 'Old Typewriter';
-  src: url('assets/Old_Typewriter.ttf');
+  src: url('/assets/Old_Typewriter.ttf');
 }
 
 @font-face {
   font-family: 'Negative System';
-  src: url('assets/negative_system.otf');
+  src: url('/assets/negative_system.otf');
 }
 
 @font-face {
   font-family: 'Quentin';
-  src: url('assets/Quentin.otf');
+  src: url('/assets/Quentin.otf');
 }
 
 #initial-beatles {

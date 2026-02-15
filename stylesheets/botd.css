@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Old Typewriter';
-  src: url('assets/Old_Typewriter.ttf');
+  src: url('/assets/Old_Typewriter.ttf');
 }
 
 .page-container {
