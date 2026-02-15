@@ -1,0 +1,31 @@
+@font-face {
+  font-family: 'Old Typewriter';
+  src: url('assets/Old_Typewriter.ttf');
+}
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  font-family: 'Old Typewriter';
+  padding-bottom: 1em;
+}
+
+#vote-button {
+  font-family: 'Old Typewriter';
+  font-size: 1.2em;
+  padding: 0.2em 1em;
+  background-color: rgb(129, 223, 15);
+  border-style: solid;
+  border-color: rgb(115, 198, 14);;
+}
+
+#vote-button:hover {
+  opacity: 0.8;
+}
+
+#vote-button:active {
+  opacity: 0.7;
+}
