@@ -1,0 +1,43 @@
+@font-face {
+  font-family: 'Old Typewriter';
+  src: url('assets/Old_Typewriter.ttf');
+}
+
+@font-face {
+  font-family: 'Negative System';
+  src: url('assets/negative_system.otf');
+}
+
+@font-face {
+  font-family: 'Quentin';
+  src: url('assets/Quentin.otf');
+}
+
+.nav-item {
+  background-color: black;
+  color: white;
+  border-color: black;
+  border-style: solid;
+  font-size: 1.1em;
+  font-family: 'Old Typewriter';
+}
+
+.nav-item:hover {
+  font-weight: bolder;
+  background-color: rgb(27, 27, 27);
+}
+
+#site-logo {
+  font-size: 2em;
+  padding: 0.1em 0.3em 0.1em 0.3em;
+}
+
+#cyber {
+  font-family: 'Negative System';
+  color: black;
+}
+
+#beatlemania {
+  font-family: 'Old Typewriter';
+  color: black;
+}

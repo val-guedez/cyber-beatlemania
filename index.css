@@ -13,52 +13,6 @@
   src: url('assets/Quentin.otf');
 }
 
-body {
-  margin: 0;
-  position: relative;
-  background-color: black;
-}
-
-nav {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  background-color: black;
-  padding: 2em 0 2em 0;
-}
-
-.nav-item {
-  background-color: black;
-  color: white;
-  border-color: black;
-  border-style: solid;
-  font-size: 1.1em;
-  font-family: 'Old Typewriter';
-}
-
-button:hover {
-  cursor: pointer;
-}
-
-.nav-item:hover {
-  font-weight: bolder;
-  background-color: rgb(27, 27, 27);
-}
-
-#site-logo {
-  font-size: 2em;
-  padding: 0.1em 0.3em 0.1em 0.3em;
-}
-
-#cyber {
-  font-family: 'Negative System';
-  color: black;
-}
-
-#beatlemania {
-  font-family: 'Old Typewriter';
-}
-
 #initial-beatles {
   width: 100%;
 }

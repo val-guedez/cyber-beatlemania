@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  position: relative;
+  background-color: black;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: black;
+  padding: 2em 0 2em 0;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+button:hover {
+  cursor: pointer;
+}
